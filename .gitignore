@@ -5,6 +5,7 @@
 /FE/dist
 /FE/node_modules
 /FE/build
+/set.json
 
 # Logs
 logs
