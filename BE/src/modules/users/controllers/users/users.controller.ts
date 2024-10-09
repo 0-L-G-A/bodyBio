@@ -1,6 +1,7 @@
+import { UserDto } from '@app/modules/users/dtos/users.dto';
+import { UsersService } from '@app/modules/users/services/users/users.service';
 import { Body, Controller, Delete, Get, HttpException, HttpStatus, Param, Post, Put } from '@nestjs/common';
-import { CreateUserDto, UpdateUserDto } from 'src/users/dtos/users.dto';
-import { UsersService } from 'src/users/services/users/users.service';
+
 
 @Controller('users')
 export class UsersController {
@@ -17,13 +18,8 @@ export class UsersController {
         return user
     }
 
-    @Post()
-    createUser(@Body() createUserDto: CreateUserDto){
-        this.userService.createUser(createUserDto)
-    }
-
     @Put(':id')
-    async updateUserById(@Param('id') id: string, @Body() updateUserDto: UpdateUserDto){
+    async updateUserById(@Param('id') id: string, @Body() updateUserDto: UserDto){
         await this.userService.updateUser(id, updateUserDto)
     }
 
@@ -32,14 +28,19 @@ export class UsersController {
         await this.userService.deleteUser(id)
     }
 
-    // @Get(':email')
-    // async loginUserByEmail(@Param('email') email: string){
-    //     const user = await this.userService.loginUserByEmail(email)
-    //     return user
-    // }
+    @Post('signUp')
+    async signUpUser(@Body() createUserDto: UserDto) {
+        const newUser = await this.userService.signUpUser(createUserDto);
+        return {
+            statusCode: 201,
+            message: 'User created successfully',
+            user: newUser,
+        };
+    }
 
     @Post('login')
     async loginUserByEmail(@Body('email') email: string, @Body('password') password: string) {
+
         const user = await this.userService.loginUserByEmail(email, password);
         
         if (!user) {
