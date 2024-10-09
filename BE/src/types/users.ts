@@ -7,19 +7,19 @@ export enum UserRole {
 }
 
 export type UserParams = {
-    id: string;
+    id?: string;
     name: string;
     surname: string;
     role: UserRole;
     email: string;
     password: string;
     contactNumber: string;
-    insuranceId: string;
-    createdAt: Date;
-    patientsIds: string[];
-    doctorsIds: string[];
-    adminsIds: string[];
-    trustPersonsIds: string[];
-    isAlive: boolean;
-    sex: string;
+    insuranceId?: string;
+    createdAt?: Date;
+    patientsIds?: string[];
+    doctorsIds?: string[];
+    adminsIds?: string[];
+    trustPersonsIds?: string[];
+    isAlive?: boolean;
+    sex?: string;
 }

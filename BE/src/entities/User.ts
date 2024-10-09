@@ -1,5 +1,6 @@
+import { UserRole } from "@app/types/users";
 import { IsEmail, MaxLength, MinLength } from "class-validator";
-import { UserRole } from "src/types/users";
+
 import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn } from "typeorm";
 
 @Entity({name: 'users'})
@@ -25,13 +26,11 @@ export class User {
     })
     role: UserRole;
 
-    @Column()
-    @IsEmail({}, {message: 'Use corect email'})
-    email: string
+    @Column({ unique: true })  // Email повинен бути унікальним
+    @IsEmail({}, {message: 'Use correct email'})
+    email: string;
 
-    @Column()
-    @MinLength(8, { message: 'Password is too short'})
-    @MaxLength(20, { message: 'Password is too long'})
+    @Column({ select: false })  // Пароль не буде включений у вибірку за замовчуванням
     password: string;
 
     @Column({nullable: true})
