@@ -1,13 +1,6 @@
 import { IsEmail, MaxLength, MinLength } from "class-validator";
+import { UserRole } from "src/types/users";
 import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn } from "typeorm";
-
-export enum UserRole {
-    SUPER_ADMIN = "super_admin",
-    ADMIN = "admin",
-    DOCTOR = "doctor",
-    PATIENT = "patient",
-    TRUST_PERSON = "trust_person",
-}
 
 @Entity({name: 'users'})
 export class User {
@@ -41,6 +34,12 @@ export class User {
     @MaxLength(20, { message: 'Password is too long'})
     password: string;
 
+    @Column({nullable: true})
+    contactNumber: string;
+
+    @Column({nullable: true})
+    insuranceId: string;
+
     @CreateDateColumn()
     createdAt: Date;
 
@@ -55,4 +54,10 @@ export class User {
 
     @Column("simple-array", { nullable: true })
     trustPersonsIds: string[] | null;
+
+    @Column({ nullable: true })
+    isAlive: boolean | null;
+
+    @Column({ nullable: true })
+    sex: string | null;
 }
