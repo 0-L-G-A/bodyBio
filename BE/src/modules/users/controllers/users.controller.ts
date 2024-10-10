@@ -1,5 +1,5 @@
 import { UserDto } from '@app/modules/users/dtos/users.dto';
-import { UsersService } from '@app/modules/users/services/users/users.service';
+import { UsersService } from '@app/modules/users/services/users.service';
 import { Body, Controller, Delete, Get, HttpException, HttpStatus, Param, Post, Put } from '@nestjs/common';
 
 

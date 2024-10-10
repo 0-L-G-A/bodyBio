@@ -1,0 +1,19 @@
+{
+    "github": "fogFrogKurwa123",
+    "mySQL": {
+        "email": "lol79lol97@gmail.com",
+        "password": "LvCLb.E9M^b&,EP"
+    }
+}
+//brew services start mysql
+//brew services stop mysql 
+//mysql -u root -p        root12T$
+//CREATE DATABASE body_bio;
+//USE body_bio;
+//SHOW TABLES;
+// DESCRIBE users;
+// npm run start:dev
+// nest g module users
+// nest g controller users/controllers/users
+// nest g service users/services/users
+// SELECT * FROM users; 
