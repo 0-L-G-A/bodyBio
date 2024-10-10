@@ -1,21 +1,29 @@
 {
   "compilerOptions": {
-    "module": "commonjs",
-    "declaration": true,
-    "removeComments": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "allowSyntheticDefaultImports": true,
-    "target": "ES2021",
-    "sourceMap": true,
-    "outDir": "./dist",
-    "baseUrl": "./",
-    "incremental": true,
-    "skipLibCheck": true,
-    "strictNullChecks": false,
-    "noImplicitAny": false,
-    "strictBindCallApply": false,
-    "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
-  }
+    "module": "commonjs",  // Використовує стандарт CommonJS для модулів (популярний у Node.js)
+    "target": "ES2021",  // Версія JavaScript, в яку компілюється TypeScript
+    "strict": true,  // Увімкнення всіх строгих перевірок типів
+    "declaration": true,  // Генерує файли декларацій (.d.ts) для TypeScript модулів
+    "removeComments": true,  // Видаляє коментарі з згенерованого JavaScript коду
+    "emitDecoratorMetadata": true,  // Додає метадані для декораторів (потрібно для NestJS)
+    "experimentalDecorators": true,  // Включає підтримку експериментальних декораторів
+    "allowSyntheticDefaultImports": true,  // Дозволяє використовувати імпорт за замовчуванням для модулів без дефолтного експорту
+    "sourceMap": true,  // Генерує файли source maps для налагодження
+    "outDir": "./dist",  // Директорія для згенерованих файлів
+    "baseUrl": "./",  // Коренева директорія для абсолютних шляхів
+    "paths": {
+      "@app/*": ["src/*"],  // Налаштування префіксів для абсолютних шляхів
+      "@modules/*": ["src/modules/*"]  // Налаштування для модулів у директорії src/modules
+    },
+    "incremental": true,  // Прискорює компіляцію, зберігаючи попередні результати
+    "skipLibCheck": true,  // Пропускає перевірку типів у файлах бібліотек
+    "strictNullChecks": false,  // Дозволяє змінним бути `null` або `undefined` без явної перевірки
+    "noImplicitAny": false,  // Дозволяє використання типу `any` без попередження
+    "strictBindCallApply": false,  // Вимикає строгі правила для функцій `bind`, `call`, `apply`
+    "forceConsistentCasingInFileNames": false,  // Не обов'язково строго дотримуватися однакових регістрів літер у назвах файлів
+    "noFallthroughCasesInSwitch": false  // Дозволяє неявний "fallthrough" між випадками в `switch`
+  },
+  "include": [
+    "src/**/*"  // Включає всі файли в директорії src
+  ]
 }

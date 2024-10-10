@@ -1,0 +1,36 @@
+я хочу щоб мої дані виглядали так
+//перший запит
+const bodySystems: BodySystem[] = [
+    {
+        id: '1',
+        level: 0,
+        name: 'Reproductive System',
+        doctorsSpecializations: [
+            { id: '1', name: 'Gynecologist' },
+            { id: '2', name: 'Obstetrician-Gynecologist' },
+            { id: '3', name: 'Andrologist' },
+        ],
+      laboratoriesChildrensIds: [],
+    findingsChildrensIds: [],
+    diagnozesChildrensIds: []
+    },
+    // Інші системи...
+];
+
+// запит всіх лобораторі (батьківських і дочірниіх) по бадіСистемІд після відкриття потрітрібної баді систем
+const laboratory: Laboratory[] = [
+            { id: '', name: 'Semen Analysis', bodySystemId: '', level: '2', children: [{ id: '', name: 'Semen Analysis Full', bodySystemId: '', level: '3'}]  }
+        ];
+
+// запит всіх симптомів (батьківських і дочірниіх) по бадіСистемІд після відкриття потрітрібної баді систем
+const findings:Finding[] = [
+            {  id: '1', name: 'Irregular Menstrual Cycle', bodySystemId: '', level: '2', children: [{ id: '', name: 'Semen Analysis Full', bodySystemId: '', level: '3'}]  }
+        ];
+
+// запит всіх діагнозів (батьківських і дочірниіх) по бадіСистемІд після відкриття потрітрібної баді систем
+const diagnozes:Diagnoze[] = [
+            {   id: '1', name: 'Endometriosis', bodySystemId: '', level: '2', children: [{ id: '', name: 'Semen Analysis Full', bodySystemId: '', level: '3'}]  }
+        ];
+
+// окремий запит
+const doctorSpecialization:any[] = [{id, name, bodySystemId}]
