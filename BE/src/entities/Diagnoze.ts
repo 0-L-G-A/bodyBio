@@ -7,18 +7,22 @@ export class Diagnoze {
     id: string;
 
     @Column()
-    name: string; // Назва лабораторії
+    name: string;
 
     @Column()
-    level: number; // Рівень ієрархії (для дітей)
+    nameKey: string;
 
-    @ManyToOne(() => BodySystem, (bodySystem) => bodySystem.laboratories, { nullable: false })
-    @JoinColumn({ name: 'id' }) // Ясно вказуємо на колонку зовнішнього ключа
-    bodySystem: BodySystem; // Зовнішній ключ для зв'язку з BodySystem
+    @Column({ type: 'int', default: 1 })
+    level: number;
+
+    @ManyToOne(() => BodySystem, (bodySystem) => bodySystem.diagnozes, { nullable: false })
+    @JoinColumn({ name: 'bodySystemId' }) // Зовнішній ключ для зв'язку з BodySystem
+    bodySystem: BodySystem;
 
     @OneToMany(() => Diagnoze, (diagnoze) => diagnoze.parent, { cascade: true })
-    children: Diagnoze[]; // Дочірні лабораторії
+    children: Diagnoze[];
 
-    @ManyToOne(() => Diagnoze, (diagnoze) => diagnoze.children)
-    parent: Diagnoze; // Батьківська лабораторія
+    @ManyToOne(() => Diagnoze, (diagnoze) => diagnoze.children, { nullable: true })
+    @JoinColumn({ name: 'parentId' }) // Вказуємо колонку зовнішнього ключа для батьківської лабораторії
+    parent: Diagnoze;
 }

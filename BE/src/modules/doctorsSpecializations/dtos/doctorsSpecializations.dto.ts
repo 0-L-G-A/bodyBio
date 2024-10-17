@@ -4,6 +4,9 @@ export class DoctorsSpecsDto {
     @IsNotEmpty()
     @IsString()
     name: string;
+
+    @IsString()
+    nameKey: string;
   
     @IsNotEmpty()
     @IsUUID()

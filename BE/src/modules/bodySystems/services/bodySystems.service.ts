@@ -13,7 +13,14 @@ export class BodySystemsService {
 
     async findAll() {
         return this.bodySystemRepository.find({
-            relations: ['doctorsSpecializations', 'laboratories', 'findings', 'diagnozes'],
+            relations: ['doctorsSpecializations'],
+        });
+    }
+
+    async findOne(id: string): Promise<BodySystem | null> {
+        return this.bodySystemRepository.findOne({
+            where: { id }, // умова для пошуку по id
+            relations: ['doctorsSpecializations', 'laboratories', 'findings', 'diagnozes'], // зв'язки
         });
     }
 
@@ -27,4 +34,8 @@ export class BodySystemsService {
       this.bodySystemRepository.merge(bodySystem, updateDto);
       return this.bodySystemRepository.save(bodySystem);
   }
+
+  async delete(id: string): Promise<void> {
+     await this.bodySystemRepository.delete(id);
+}
 }

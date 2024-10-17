@@ -2,28 +2,27 @@ import { Entity, PrimaryGeneratedColumn, Column, ManyToOne, OneToMany, JoinColum
 import { BodySystem } from './BodySystem';
 
 @Entity()
-export class Finding {
+export class Lab {
     @PrimaryGeneratedColumn('uuid')
     id: string;
 
     @Column()
-    name: string;
+    name: string; // Назва лабораторії
 
     @Column()
-    nameKey: string;
+    nameKey: string; // Ключ для назви лабораторії (може бути використаний для i18n)
 
     @Column({ type: 'int', default: 1 })
-    level: number;
+    level: number; // Рівень ієрархії (для дітей)
 
-    @ManyToOne(() => BodySystem, (bodySystem) => bodySystem.diagnozes, { nullable: false })
+    @ManyToOne(() => BodySystem, (bodySystem) => bodySystem.laboratories, { nullable: false })
     @JoinColumn({ name: 'bodySystemId' }) // Зовнішній ключ для зв'язку з BodySystem
     bodySystem: BodySystem;
 
-    @OneToMany(() => Finding, (finding) => finding.parent, { cascade: true })
-    children: Finding[];
+    @OneToMany(() => Lab, (lab) => lab.parent, { cascade: true })
+    children: Lab[];
 
-    @ManyToOne(() => Finding, (finding) => finding.children, { nullable: true })
+    @ManyToOne(() => Lab, (lab) => lab.children, { nullable: true })
     @JoinColumn({ name: 'parentId' }) // Вказуємо колонку зовнішнього ключа для батьківської лабораторії
-    parent: Finding;
-
+    parent: Lab;
 }

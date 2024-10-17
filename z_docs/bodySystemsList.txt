@@ -1,0 +1,171 @@
+Нервова система (Nervous System)
+
+Серцево-судинна система (Cardiovascular System)
+
+Дихальна система (Respiratory System)
+
+Травна система (Digestive System)
+
+Сечовидільна система (Urinary System)
+
+Репродуктивна система (Reproductive System)
+
+Ендокринна система (Endocrine System)
+
+Опорно-рухова система (Musculoskeletal System)
+
+Шкіра та підшкірні тканини (Integumentary System)
+
+Імунна система (Immune System)
+
+Кровоносна система (Hematologic System)
+
+Лімфатична система (Lymphatic System)
+
+Органи чуття (Sensory Organs)
+
+Ротова порожнина та зуби (Oral and Dental System)
+
+Загальна хірургія (General Surgery)
+
+Інфекційні захворювання (Infectious Diseases)
+
+Сімейна медицина (Family Medicine)
+
+
+
+
+
+
+
+Нервова система (Nervous System)
+
+Невролог (Neurologist)
+Нейрохірург (Neurosurgeon)
+Психіатр (Psychiatrist)
+Психолог (Psychologist)
+Сімейний лікар (Family Doctor)
+
+
+Серцево-судинна система (Cardiovascular System)
+
+Кардіолог (Cardiologist)
+Серцево-судинний хірург (Cardiovascular Surgeon)
+Судинний хірург (Vascular Surgeon)
+Сімейний лікар (Family Doctor)
+
+
+Дихальна система (Respiratory System)
+
+Пульмонолог (Pulmonologist)
+Торакальний хірург (Thoracic Surgeon)
+Алерголог (Allergist)
+Оториноларинголог (ENT, Otolaryngologist)
+Сімейний лікар (Family Doctor)
+
+
+Травна система (Digestive System)
+
+Гастроентеролог (Gastroenterologist)
+Хірург травної системи (Digestive Surgeon)
+Проктолог (Proctologist)
+Гепатолог (Hepatologist)
+Сімейний лікар (Family Doctor)
+
+
+Сечовидільна система (Urinary System)
+
+Уролог (Urologist)
+Нефролог (Nephrologist)
+Сімейний лікар (Family Doctor)
+
+
+Репродуктивна система (Reproductive System)
+
+Гінеколог (Gynecologist)
+Акушер-гінеколог (Obstetrician-Gynecologist)
+Андролог (Andrologist)
+Уролог (Urologist)
+Сімейний лікар (Family Doctor)
+
+
+Ендокринна система (Endocrine System)
+
+Ендокринолог (Endocrinologist)
+Діабетолог (Diabetologist)
+Сімейний лікар (Family Doctor)
+
+
+Опорно-рухова система (Musculoskeletal System)
+
+Ортопед (Orthopedist)
+Травматолог (Traumatologist)
+Ревматолог (Rheumatologist)
+Хірург-ортопед (Orthopedic Surgeon)
+Сімейний лікар (Family Doctor)
+
+
+Шкіра та підшкірні тканини (Integumentary System)
+
+Дерматолог (Dermatologist)
+Косметолог (Cosmetologist)
+Пластичний хірург (Plastic Surgeon)
+Сімейний лікар (Family Doctor)
+
+
+Імунна система (Immune System)
+
+Імунолог (Immunologist)
+Алерголог (Allergist)
+Ревматолог (Rheumatologist)
+Сімейний лікар (Family Doctor)
+
+
+Кровоносна система (Hematologic System)
+
+Гематолог (Hematologist)
+Онкогематолог (Oncohematologist)
+Сімейний лікар (Family Doctor)
+
+
+Лімфатична система (Lymphatic System)
+
+Лімфолог (Lymphologist)
+Онколог (Oncologist)
+Сімейний лікар (Family Doctor)
+
+
+Органи чуття (Sensory Organs)
+
+Офтальмолог (Ophthalmologist, окуліст)
+Отоларинголог (Otolaryngologist)
+Аудіолог (Audiologist)
+Сімейний лікар (Family Doctor)
+
+
+Ротова порожнина та зуби (Oral and Dental System)
+
+Стоматолог (Dentist)
+Ортодонт (Orthodontist)
+Щелепно-лицевий хірург (Maxillofacial Surgeon)
+Сімейний лікар (Family Doctor)
+
+
+Загальна хірургія (General Surgery)
+
+Хірург (General Surgeon)
+Торакальний хірург (Thoracic Surgeon)
+Абдомінальний хірург (Abdominal Surgeon)
+Пластичний хірург (Plastic Surgeon)
+Сімейний лікар (Family Doctor)
+
+
+Інфекційні захворювання (Infectious Diseases)
+
+Інфекціоніст (Infectiologist)
+Мікробіолог (Microbiologist)
+Епідеміолог (Epidemiologist)
+Сімейний лікар (Family Doctor)
+
+
+Сімейна медицина (Family Medicine)

@@ -1,0 +1,919 @@
+Нервова система (Nervous System)
+
+Лабораторні дослідження (Laboratory Tests):
+
+МРТ (Magnetic Resonance Imaging, MRI)
+Електроенцефалографія (Electroencephalography, EEG)
+КТ (Computed Tomography, CT)
+Люмбальна пункція (Lumbar Puncture)
+Нейропсихологічне тестування (Neuropsychological Testing)
+ПЕТ-сканування мозку (Positron Emission Tomography, PET)
+Електроміографія (Electromyography, EMG)
+Аналіз спинномозкової рідини (Cerebrospinal Fluid Analysis)
+Доплерографія судин головного мозку (Cerebral Doppler Ultrasound)
+Тест на нервову провідність (Nerve Conduction Study)
+Симптоми (Symptoms):
+
+Головний біль (Headache)
+Судоми (Seizures)
+Запаморочення (Dizziness)
+Тремор (Tremor)
+Оніміння чи слабкість у кінцівках (Numbness or Weakness in Limbs)
+Втрата пам'яті (Memory Loss)
+Зміни настрою або поведінки (Mood or Behavioral Changes)
+Втрата координації (Loss of Coordination)
+Проблеми з мовленням (Speech Difficulties)
+Порушення зору (Visual Disturbances)
+Труднощі з ковтанням (Difficulty Swallowing)
+Біль у шиї чи спині (Neck or Back Pain)
+Втрата свідомості (Loss of Consciousness)
+Безсоння (Insomnia)
+Втрата чутливості (Loss of Sensation)
+Діагнози (Diagnoses):
+
+Інсульт (Stroke)
+Мігрень (Migraine)
+Епілепсія (Epilepsy)
+Розсіяний склероз (Multiple Sclerosis)
+Паркінсонізм (Parkinson's Disease)
+Аміотрофічний бічний склероз (Amyotrophic Lateral Sclerosis, ALS)
+Альцгеймер (Alzheimer's Disease)
+Невропатія (Neuropathy)
+Травма спинного мозку (Spinal Cord Injury)
+Тривожний розлад (Anxiety Disorder)
+Депресія (Depression)
+Нейроінфекція (Neuroinfection)
+Пухлини головного мозку (Brain Tumors)
+Менінгіт (Meningitis)
+Черепно-мозкова травма (Traumatic Brain Injury)
+
+
+
+
+
+
+Серцево-судинна система (Cardiovascular System)
+
+Лабораторні дослідження (Laboratory Tests):
+
+ЕКГ (Electrocardiogram, ECG)
+Стрес-тест (Stress Test)
+Ехокардіографія (Echocardiogram)
+Аналіз крові на ліпіди (Lipid Panel)
+Ангіографія (Angiography)
+Холтерівський моніторинг (Holter Monitoring)
+Коронарографія (Coronary Angiography)
+Аналіз на тропонін (Troponin Test)
+УЗД серця (Cardiac Ultrasound)
+Аналіз крові на C-реактивний білок (C-Reactive Protein Test)
+Симптоми (Symptoms):
+
+Біль у грудях (Chest Pain)
+Задишка (Shortness of Breath)
+Прискорене серцебиття (Palpitations)
+Запаморочення (Dizziness)
+Набряк кінцівок (Swelling of the Limbs)
+Втома (Fatigue)
+Втрата свідомості (Fainting)
+Пітливість (Sweating)
+Блідість шкіри (Pallor)
+Біль, що іррадіює в руку або спину (Pain Radiating to Arm or Back)
+Відчуття тривоги (Feeling of Anxiety)
+Підвищений тиск (High Blood Pressure)
+Задишка в положенні лежачи (Orthopnea)
+Оніміння або холод в кінцівках (Numbness or Cold in Limbs)
+Швидка втомлюваність при фізичній активності (Easily Fatigued by Physical Activity)
+Діагнози (Diagnoses):
+
+Інфаркт міокарда (Myocardial Infarction, Heart Attack)
+Гіпертонія (Hypertension)
+Аритмія (Arrhythmia)
+Ішемічна хвороба серця (Coronary Artery Disease)
+Серцева недостатність (Heart Failure)
+Кардіоміопатія (Cardiomyopathy)
+Стеноз аортального клапана (Aortic Valve Stenosis)
+Перикардит (Pericarditis)
+Мітральна недостатність (Mitral Valve Regurgitation)
+Тромбоз глибоких вен (Deep Vein Thrombosis)
+Атеросклероз (Atherosclerosis)
+Міокардит (Myocarditis)
+Аневризма аорти (Aortic Aneurysm)
+Периферична артеріальна хвороба (Peripheral Artery Disease)
+Серцевий блок (Heart Block)
+
+
+
+
+
+Дихальна система (Respiratory System)
+
+Лабораторні дослідження (Laboratory Tests):
+
+Спірометрія (Spirometry)
+Рентгенографія грудної клітини (Chest X-ray)
+КТ грудної клітини (Chest CT Scan)
+Аналіз газів артеріальної крові (Arterial Blood Gas Analysis)
+Аналіз мокротиння (Sputum Analysis)
+Пульсоксиметрія (Pulse Oximetry)
+Бронхоскопія (Bronchoscopy)
+Тест на алергію (Allergy Testing)
+Аналіз на туберкульоз (Tuberculosis Test)
+Аналіз крові на еозинофіли (Eosinophil Count)
+Симптоми (Symptoms):
+
+Кашель (Cough)
+Задишка (Shortness of Breath)
+Хрипи (Wheezing)
+Біль у грудях (Chest Pain)
+Відхаркування мокротиння (Sputum Production)
+Втома (Fatigue)
+Підвищена температура (Fever)
+Задишка під час фізичної активності (Dyspnea on Exertion)
+Синюватість губ і нігтів (Cyanosis)
+Нежить (Runny Nose)
+Сухість у роті (Dry Mouth)
+Біль при диханні (Pain with Breathing)
+Сухий кашель (Dry Cough)
+Втрата ваги (Weight Loss)
+Неприємний запах з рота (Halitosis)
+Діагнози (Diagnoses):
+
+Астма (Asthma)
+Хронічна обструктивна хвороба легень (Chronic Obstructive Pulmonary Disease, COPD)
+Пневмонія (Pneumonia)
+Туберкульоз (Tuberculosis)
+Бронхіт (Bronchitis)
+Рак легенів (Lung Cancer)
+Інфекції дихальних шляхів (Respiratory Infections)
+Аллергічний риніт (Allergic Rhinitis)
+Пневмоторакс (Pneumothorax)
+Інтерстиціальна хвороба легень (Interstitial Lung Disease)
+Синдром обструктивного апное сну (Obstructive Sleep Apnea Syndrome)
+Дифузний легеневий фіброз (Pulmonary Fibrosis)
+Хронічний риніт (Chronic Rhinitis)
+Хронічний синусит (Chronic Sinusitis)
+Синдром Тореца (Torrence Syndrome)
+
+
+
+
+
+Травна система (Digestive System)
+
+Лабораторні дослідження (Laboratory Tests):
+
+Загальний аналіз крові (Complete Blood Count, CBC)
+Біохімічний аналіз крові (Biochemical Blood Test)
+Аналіз калу на приховану кров (Fecal Occult Blood Test)
+Гастроскопія (Gastroscopy)
+Колоноскопія (Colonoscopy)
+Ультразвукове дослідження органів черевної порожнини (Abdominal Ultrasound)
+Тест на Helicobacter pylori (Helicobacter pylori Test)
+КТ живота (Abdominal CT Scan)
+МРТ черевної порожнини (Abdominal MRI)
+Тест на лактозну непереносимість (Lactose Intolerance Test)
+Симптоми (Symptoms):
+
+Біль у животі (Abdominal Pain)
+Нудота (Nausea)
+Блювання (Vomiting)
+Діарея (Diarrhea)
+Запор (Constipation)
+Втрата апетиту (Loss of Appetite)
+Відрижка (Belching)
+Важкість у шлунку (Bloating)
+Здуття живота (Abdominal Distension)
+Кислий смак у роті (Acid Reflux)
+Печія (Heartburn)
+Свербіж у задньому проході (Itching in the Anus)
+Підвищене газоутворення (Flatulence)
+Зміна ваги (Weight Changes)
+Слабкість (Weakness)
+Діагнози (Diagnoses):
+
+Гастрит (Gastritis)
+Виразка шлунка (Stomach Ulcer)
+Кишкова непрохідність (Bowel Obstruction)
+Хвороба Крона (Crohn's Disease)
+Коліт (Colitis)
+Жовчнокам'яна хвороба (Gallstones)
+Панкреатит (Pancreatitis)
+Рак шлунка (Stomach Cancer)
+Целіакія (Celiac Disease)
+Хронічна печінкова недостатність (Chronic Liver Failure)
+Синдром подразненого кишечника (Irritable Bowel Syndrome, IBS)
+Гепатит (Hepatitis)
+Поліпи товстої кишки (Colon Polyps)
+Рак товстої кишки (Colon Cancer)
+Дисфункція підшлункової залози (Pancreatic Insufficiency)
+
+
+
+
+Сечовидільна система (Urinary System)
+
+Лабораторні дослідження (Laboratory Tests):
+
+Загальний аналіз сечі (Urinalysis)
+Біохімічний аналіз крові (Biochemical Blood Test)
+Аналіз сечі на бактерії (Urine Culture)
+Ультразвукове дослідження нирок (Kidney Ultrasound)
+КТ нирок (Kidney CT Scan)
+МРТ нирок (Kidney MRI)
+Тест на функцію нирок (Kidney Function Tests)
+Цистоскопія (Cystoscopy)
+Визначення рівня креатиніну в крові (Serum Creatinine Test)
+Тест на наявність білка в сечі (Proteinuria Test)
+Симптоми (Symptoms):
+
+Біль у попереку (Back Pain)
+Часте сечовиділення (Frequent Urination)
+Печіння під час сечовиділення (Burning Sensation During Urination)
+Кров у сечі (Hematuria)
+Неприємний запах сечі (Strong Smell of Urine)
+Туманна сеча (Cloudy Urine)
+Біль у животі (Abdominal Pain)
+Нудота (Nausea)
+Слабкість (Weakness)
+Збільшення або зменшення кількості сечі (Increased or Decreased Urine Output)
+Затримка сечі (Urinary Retention)
+Зневоднення (Dehydration)
+Набряки (Swelling)
+Лихоманка (Fever)
+Втрата ваги (Weight Loss)
+Діагнози (Diagnoses):
+
+Інфекція сечових шляхів (Urinary Tract Infection, UTI)
+Камені в нирках (Kidney Stones)
+Хронічна ниркова недостатність (Chronic Kidney Disease)
+Гостра ниркова недостатність (Acute Kidney Injury)
+Простатит (Prostatitis)
+Ниркова недостатність (Renal Failure)
+Цистит (Cystitis)
+Гломерулонефрит (Glomerulonephritis)
+Нирковий рак (Kidney Cancer)
+Сечовий міхур (Bladder Cancer)
+Полікістоз нирок (Polycystic Kidney Disease)
+Аномалії сечовидільної системи (Urinary System Anomalies)
+Аденома простати (Benign Prostatic Hyperplasia)
+Неврогенний сечовий міхур (Neurogenic Bladder)
+Вроджені аномалії (Congenital Anomalies)
+
+
+
+
+Репродуктивна система (Reproductive System)
+
+Лабораторні дослідження (Laboratory Tests):
+
+Загальний аналіз крові (Complete Blood Count, CBC)
+Гормональні аналізи (Hormonal Tests)
+Пап-тест (Pap Smear)
+Спермограма (Semen Analysis)
+УЗД органів малого тазу (Pelvic Ultrasound)
+Тест на ВІЛ (HIV Test)
+Тест на сифіліс (Syphilis Test)
+Аналіз на вірусні гепатити (Hepatitis Tests)
+Тести на інфекції, що передаються статевим шляхом (STI Tests)
+КТ або МРТ органів малого таза (CT or MRI of Pelvic Organs)
+Симптоми (Symptoms):
+
+Біль у животі (Abdominal Pain)
+Нерегулярні менструації (Irregular Menstrual Cycles)
+Безпліддя (Infertility)
+Біль під час статевого акту (Pain During Intercourse)
+Аномальні виділення з піхви (Abnormal Vaginal Discharge)
+Біль у грудях (Breast Pain)
+Набряки в області таза (Pelvic Swelling)
+Лихоманка (Fever)
+Втома (Fatigue)
+Зміни у статевому бажанні (Changes in Libido)
+Гормональні зміни (Hormonal Changes)
+Кровотеча між менструаціями (Bleeding Between Periods)
+Випадіння волосся (Hair Loss)
+Висипи на шкірі (Skin Rashes)
+Зміни в сечовипусканні (Changes in Urination)
+Діагнози (Diagnoses):
+
+Полікістоз яєчників (Polycystic Ovary Syndrome, PCOS)
+Ендометріоз (Endometriosis)
+Міома матки (Uterine Fibroids)
+Вагіноз (Vaginosis)
+Інфекції, що передаються статевим шляхом (Sexually Transmitted Infections, STIs)
+Простатит (Prostatitis)
+Бенінна гіперплазія простати (Benign Prostatic Hyperplasia, BPH)
+Непрохідність маткових труб (Blocked Fallopian Tubes)
+Рак яєчників (Ovarian Cancer)
+Рак молочної залози (Breast Cancer)
+Рак шийки матки (Cervical Cancer)
+Дисфункція яєчників (Ovarian Dysfunction)
+Неврогенний сечовий міхур (Neurogenic Bladder)
+Різні вроджені аномалії (Congenital Anomalies)
+Патології простати (Prostate Disorders)
+
+
+
+
+
+Ендокринна система (Endocrine System)
+
+Лабораторні дослідження (Laboratory Tests):
+
+Аналіз на гормони щитовидної залози (Thyroid Hormone Tests)
+Аналіз на кортизол (Cortisol Test)
+Тест на рівень інсуліну (Insulin Level Test)
+Гормональний профіль (Hormonal Profile)
+Тест на тестостерон (Testosterone Test)
+Тест на естрогени (Estrogen Tests)
+Тест на прогестерон (Progesterone Test)
+Аналіз на адренокортикотропний гормон (ACTH Test)
+Аналіз на парагормон (Parathyroid Hormone Test)
+Глюкозотолерантний тест (Glucose Tolerance Test)
+Симптоми (Symptoms):
+
+Набір ваги або втрата ваги (Weight Gain or Loss)
+Втома (Fatigue)
+Зміни настрою (Mood Swings)
+Проблеми зі сном (Sleep Problems)
+Збільшення або зменшення апетиту (Increased or Decreased Appetite)
+Нерегулярні менструації (Irregular Menstrual Cycles)
+Сухість шкіри (Dry Skin)
+Випадіння волосся (Hair Loss)
+Підвищена чутливість до холоду або тепла (Increased Sensitivity to Cold or Heat)
+Підвищена спрага (Increased Thirst)
+Підвищене сечовипускання (Increased Urination)
+М’язова слабкість (Muscle Weakness)
+Депресія або тривожність (Depression or Anxiety)
+Зміни в шкірному покриві (Skin Changes)
+Збільшення щитовидної залози (Goiter)
+Діагнози (Diagnoses):
+
+Гіпотиреоз (Hypothyroidism)
+Гіпертиреоз (Hyperthyroidism)
+Цукровий діабет (Diabetes Mellitus)
+Синдром Кушинга (Cushing's Syndrome)
+Синдром Марфана (Marfan Syndrome)
+Акромегалія (Acromegaly)
+Гіпопаратиреоз (Hypoparathyroidism)
+Синдром полікістозу яєчників (Polycystic Ovary Syndrome, PCOS)
+Адреналова недостатність (Adrenal Insufficiency)
+Гіперглікемія (Hyperglycemia)
+Гіпоглікемія (Hypoglycemia)
+Гіперпролактинемія (Hyperprolactinemia)
+Хвороба Аддисона (Addison's Disease)
+Проблеми з наднирковими залозами (Adrenal Disorders)
+Порушення статевих гормонів (Sex Hormone Disorders)
+
+
+
+
+Опорно-рухова система (Musculoskeletal System)
+
+Лабораторні дослідження (Laboratory Tests):
+
+Рентгенографія (X-ray)
+Магнітно-резонансна томографія (MRI)
+Комп'ютерна томографія (CT Scan)
+Ультразвукове дослідження суглобів (Ultrasound of Joints)
+Аналіз крові на запальні маркери (Blood Tests for Inflammatory Markers)
+Тест на рівень кальцію в крові (Calcium Level Test)
+Тест на рівень вітаміну D (Vitamin D Test)
+Аналіз на ревматоїдний фактор (Rheumatoid Factor Test)
+Тест на креатинін (Creatinine Test)
+Біопсія м'язів (Muscle Biopsy)
+Симптоми (Symptoms):
+
+Біль у суглобах (Joint Pain)
+Біль у м'язах (Muscle Pain)
+Обмежена рухливість (Limited Mobility)
+Набряк суглобів (Swelling of Joints)
+Слабкість у м'язах (Muscle Weakness)
+Твердість у суглобах (Stiffness in Joints)
+Синці або набряки (Bruising or Swelling)
+Зниження фізичної витривалості (Reduced Physical Endurance)
+Деформації суглобів (Joint Deformities)
+Хрустіння або скрипіння при русі (Crunching or Popping Sounds during Movement)
+Біль при навантаженні (Pain with Load)
+Оніміння або поколювання (Numbness or Tingling)
+Ломота в тілі (Body Aches)
+Зміни в формі пальців (Changes in Finger Shape)
+Утома (Fatigue)
+Діагнози (Diagnoses):
+
+Артрит (Arthritis)
+Остеоартрит (Osteoarthritis)
+Ревматоїдний артрит (Rheumatoid Arthritis)
+Остеопороз (Osteoporosis)
+Міозит (Myositis)
+Пухлини м'язів або кісток (Muscle or Bone Tumors)
+Синдром роздратованого кишечника (Irritable Bowel Syndrome, IBS)
+Бурсит (Bursitis)
+Тендиніт (Tendinitis)
+Спинальна грижа (Herniated Disc)
+Остеомієліт (Osteomyelitis)
+Фіброміалгія (Fibromyalgia)
+Люмбаго (Lumbago)
+Синдром Карпального Каналу (Carpal Tunnel Syndrome)
+Травми (Injuries)
+
+
+
+
+
+Шкіра та підшкірні тканини (Integumentary System)
+
+Лабораторні дослідження (Laboratory Tests):
+
+Біопсія шкіри (Skin Biopsy)
+Аналіз на дерматофітоз (Fungal Culture for Dermatophytes)
+Клінічний аналіз крові (Complete Blood Count, CBC)
+Тест на алергію (Allergy Testing)
+Дерматологічне дослідження (Dermatological Examination)
+Аналіз на наявність вірусів (Viral Culture)
+Гістологічне дослідження (Histological Examination)
+Тест на підвищений рівень цукру (Blood Glucose Test)
+Аналіз на рівень гормонів (Hormone Level Test)
+Ультразвукове дослідження шкіри (Ultrasound of the Skin)
+Симптоми (Symptoms):
+
+Висипання (Rashes)
+Свербіж (Itching)
+Почервоніння (Redness)
+Лущення (Peeling)
+Набряк (Swelling)
+Біль або дискомфорт (Pain or Discomfort)
+Підвищена чутливість (Increased Sensitivity)
+Бульбашки (Blisters)
+Дерматит (Dermatitis)
+Пігментація (Pigmentation Changes)
+Зміна текстури шкіри (Change in Skin Texture)
+Тріщини на шкірі (Cracks in the Skin)
+Запалення (Inflammation)
+Випадання волосся (Hair Loss)
+Гнійничкові утворення (Pustules)
+Діагнози (Diagnoses):
+
+Псориаз (Psoriasis)
+Екзема (Eczema)
+Дерматит (Dermatitis)
+Кандидоз шкіри (Cutaneous Candidiasis)
+Бактеріальні інфекції (Bacterial Infections)
+Вірусні інфекції (Viral Infections)
+Акне (Acne)
+Меланома (Melanoma)
+Кератоз (Keratosis)
+Системний червоний вовчак (Systemic Lupus Erythematosus)
+Шкірні алергії (Skin Allergies)
+Гнійні інфекції (Abscesses)
+Вітіліго (Vitiligo)
+Ліхен планус (Lichen Planus)
+Фурункульоз (Furuncles)
+
+
+
+
+Імунна система (Immune System)
+
+Лабораторні дослідження (Laboratory Tests):
+
+Загальний аналіз крові (Complete Blood Count, CBC)
+Імунологічні тести (Immunological Tests)
+Тести на алергію (Allergy Testing)
+Серологічні тести (Serological Tests)
+Тести на ВІЛ (HIV Testing)
+Аналіз на аутоантитіла (Autoantibody Testing)
+Вимірювання рівня імуноглобулінів (Immunoglobulin Levels)
+Тести на цитокіни (Cytokine Testing)
+Мікробіологічні дослідження (Microbiological Studies)
+Пункція кісткового мозку (Bone Marrow Aspiration)
+Симптоми (Symptoms):
+
+Часті інфекції (Frequent Infections)
+Втома (Fatigue)
+Запалення (Inflammation)
+Лихоманка (Fever)
+Набряк лімфатичних вузлів (Swollen Lymph Nodes)
+Біль у м’язах і суглобах (Muscle and Joint Pain)
+Алергічні реакції (Allergic Reactions)
+Проблеми з диханням (Breathing Problems)
+Втрата ваги (Weight Loss)
+Дерматологічні симптоми (Dermatological Symptoms)
+Геморагічні симптоми (Hemorrhagic Symptoms)
+Слабкість (Weakness)
+Висипання (Rashes)
+Головний біль (Headache)
+Синусит (Sinusitis)
+Діагнози (Diagnoses):
+
+Аутоімунні захворювання (Autoimmune Diseases)
+Імунодефіцит (Immunodeficiency)
+Лімфома (Lymphoma)
+Лейкемія (Leukemia)
+Алергія (Allergy)
+Системний червоний вовчак (Systemic Lupus Erythematosus)
+Ревматоїдний артрит (Rheumatoid Arthritis)
+Целіакія (Celiac Disease)
+Множинна склероз (Multiple Sclerosis)
+Хвороба Грейвса (Graves' Disease)
+Хвороба Хашимото (Hashimoto's Disease)
+Хронічна втома (Chronic Fatigue Syndrome)
+Інфекції, викликані вірусами (Viral Infections)
+Алергічний риніт (Allergic Rhinitis)
+Інфекційні захворювання (Infectious Diseases)
+
+
+
+
+
+Кровоносна система (Hematologic System)
+
+Лабораторні дослідження (Laboratory Tests):
+
+Загальний аналіз крові (Complete Blood Count, CBC)
+Біохімічний аналіз крові (Biochemical Blood Test)
+Коагулограма (Coagulation Profile)
+Тести на групу крові (Blood Typing)
+Тести на гемоглобін (Hemoglobin Testing)
+Мікроскопічне дослідження крові (Blood Smear Examination)
+Аналіз на ферритин (Ferritin Test)
+Тести на тромбоцити (Platelet Count)
+Аналіз на рівень лейкоцитів (Leukocyte Count)
+Пункція кісткового мозку (Bone Marrow Aspiration)
+Симптоми (Symptoms):
+
+Втома (Fatigue)
+Часті синці (Frequent Bruising)
+Кровотечі (Bleeding)
+Запаморочення (Dizziness)
+Блідість шкіри (Paleness of Skin)
+Задишка (Shortness of Breath)
+Тахікардія (Tachycardia)
+Втрата апетиту (Loss of Appetite)
+Набряк (Swelling)
+Біль у грудях (Chest Pain)
+Відчуття слабкості (Weakness)
+Головний біль (Headache)
+Стомлюваність (Exhaustion)
+Лихоманка (Fever)
+Зміни у стільці (Changes in Stool)
+Діагнози (Diagnoses):
+
+Анемія (Anemia)
+Лейкемія (Leukemia)
+Лімфома (Lymphoma)
+Тромбоцитопенія (Thrombocytopenia)
+Гемофілія (Hemophilia)
+Мієлома (Multiple Myeloma)
+Сидеробластна анемія (Sideroblastic Anemia)
+Поліцитемія (Polycythemia Vera)
+Гемолітична анемія (Hemolytic Anemia)
+Дисемінована внутрішньосудинна коагуляція (Disseminated Intravascular Coagulation, DIC)
+Серповидно-клітинна анемія (Sickle Cell Anemia)
+Системний червоний вовчак (Systemic Lupus Erythematosus)
+Геморагічний синдром (Hemorrhagic Syndrome)
+Вірусний гепатит (Viral Hepatitis)
+Інфекційні захворювання (Infectious Diseases)
+
+
+
+Лімфатична система (Lymphatic System)
+Симптоми:
+
+Набряки (Swelling)
+Лімфаденіт (Lymphadenitis)
+Біль у лімфатичних вузлах (Pain in lymph nodes)
+Лихоманка (Fever)
+Втома (Fatigue)
+Прискорене серцебиття (Rapid heartbeat)
+Непояснена втрата ваги (Unexplained weight loss)
+Нічна потливість (Night sweats)
+Слабкість (Weakness)
+Шкірні висипання (Skin rashes)
+Дослідження:
+
+Загальний аналіз крові (Complete Blood Count, CBC)
+Біохімічний аналіз крові (Biochemical blood tests)
+Ультразвукове дослідження лімфатичних вузлів (Ultrasound of lymph nodes)
+Комп'ютерна томографія (CT scan)
+Магнітно-резонансна томографія (MRI)
+Пункція лімфатичного вузла (Lymph node biopsy)
+Лімфосцинтиграфія (Lymphoscintigraphy)
+Тест на лімфоцити (Lymphocyte test)
+Імунофарбування (Immunohistochemistry)
+Мікробіологічні дослідження (Microbiological tests)
+Діагнози:
+
+Лімфома (Lymphoma)
+Лімфодема (Lymphedema)
+Інфекційний мононуклеоз (Infectious mononucleosis)
+Метастази (Metastases)
+Туберкульоз (Tuberculosis)
+Вірусні інфекції (Viral infections)
+Хронічна обструктивна хвороба легень (COPD)
+Автоімунні захворювання (Autoimmune diseases)
+Мієлома (Myeloma)
+Саркоїдоз (Sarcoidosis)
+
+
+
+
+Органи чуття (Sensory Organs)
+Симптоми:
+
+Біль у вухах (Ear pain)
+Втрата слуху (Hearing loss)
+Дзвін у вухах (Tinnitus)
+Запаморочення (Dizziness)
+Біль у горлі (Sore throat)
+Закладеність носа (Nasal congestion)
+Сухість у роті (Dry mouth)
+Нечіткість зору (Blurred vision)
+Печіння або свербіж в очах (Burning or itching eyes)
+Порушення смаку (Taste disturbances)
+Дослідження:
+
+Тест на слух (Hearing test)
+Офтальмологічний огляд (Ophthalmologic examination)
+Аудіометрія (Audiometry)
+Комп'ютерна томографія голови (CT scan of the head)
+Ультразвукове дослідження (Ultrasound examination)
+Рентгенографія (X-ray)
+Ларингоскопія (Laryngoscopy)
+Тест на вестибулярну функцію (Vestibular function test)
+Тест на запах (Olfactory test)
+Аналізи на алергію (Allergy tests)
+Діагнози:
+
+Гострий отит (Acute otitis media)
+Синусит (Sinusitis)
+Кон'юнктивіт (Conjunctivitis)
+Глаукома (Glaucoma)
+Кератит (Keratitis)
+Мигдалит (Tonsillitis)
+Поліпи носа (Nasal polyps)
+Вестибулярна неврит (Vestibular neuritis)
+Хронічний отит (Chronic otitis)
+Алергічний риніт (Allergic rhinitis)
+
+
+
+Ротова порожнина та зуби (Oral and Dental System)
+Симптоми:
+
+Біль у зубах (Toothache)
+Запалення ясен (Gum inflammation)
+Неприємний запах з рота (Bad breath)
+Кровоточивість ясен (Gum bleeding)
+Свербіж у роті (Itching in the mouth)
+Сухість у роті (Dry mouth)
+Зміна кольору зубів (Tooth discoloration)
+Підвищена чутливість зубів (Increased tooth sensitivity)
+Поява тріщин у зубах (Cracks in teeth)
+Поява абсцесів (Abscess formation)
+Дослідження:
+
+Огляд ротової порожнини (Oral examination)
+Рентген зубів (Dental X-ray)
+Ультразвукове дослідження щелепи (Jaw ultrasound)
+Пародонтологічне дослідження (Periodontal examination)
+Біопсія слизової оболонки (Oral mucosa biopsy)
+Аналізи на бактеріальні інфекції (Bacterial infection tests)
+Тест на чутливість зубів (Tooth sensitivity test)
+Тест на кислотність слини (Salivary pH test)
+Аналізи на наявність карієсу (Caries detection tests)
+Оцінка функції жування (Chewing function assessment)
+Діагнози:
+
+Карієс (Caries)
+Пародонтит (Periodontitis)
+Гінгівіт (Gingivitis)
+Абсцес зуба (Tooth abscess)
+Ортодонтичні аномалії (Orthodontic anomalies)
+Травма щелепи (Jaw injury)
+Кандидоз ротової порожнини (Oral candidiasis)
+Афтозний стоматит (Aphthous stomatitis)
+Зубна гіпоплазія (Tooth hypoplasia)
+Орал-синдром (Oral syndrome)
+
+
+
+
+
+Загальна хірургія (General Surgery)
+Симптоми:
+
+Біль у животі (Abdominal pain)
+Нудота (Nausea)
+Блювання (Vomiting)
+Зниження апетиту (Loss of appetite)
+Втрата ваги (Weight loss)
+Здуття живота (Abdominal bloating)
+Зміна стільця (Change in bowel habits)
+Кров у стільці (Blood in stool)
+Лихоманка (Fever)
+Поява набряків (Swelling)
+Дослідження:
+
+Огляд пацієнта (Physical examination)
+Ультразвукове дослідження черевної порожнини (Abdominal ultrasound)
+Комп'ютерна томографія (CT scan)
+Рентген черевної порожнини (Abdominal X-ray)
+Лабораторні аналізи крові (Blood tests)
+Ендоскопія (Endoscopy)
+Біопсія тканин (Tissue biopsy)
+Магнітно-резонансна томографія (MRI)
+Колоноскопія (Colonoscopy)
+Тест на функцію печінки (Liver function tests)
+Діагнози:
+
+Апендицит (Appendicitis)
+Холестеріоз (Cholecystitis)
+Кишкова непрохідність (Intestinal obstruction)
+Грижа (Hernia)
+Панкреатит (Pancreatitis)
+Виразка шлунка (Stomach ulcer)
+Рак товстої кишки (Colon cancer)
+Запалення підшлункової залози (Pancreatitis)
+Сечокам'яна хвороба (Kidney stones)
+Геморой (Hemorrhoids)
+
+
+
+
+Інфекційні захворювання (Infectious Diseases)
+Симптоми (Symptoms):
+Лихоманка (Fever)
+Головний біль (Headache)
+М'язовий біль (Muscle pain)
+Кашель (Cough)
+Біль у горлі (Sore throat)
+Діарея (Diarrhea)
+Нудота (Nausea)
+Втома (Fatigue)
+Висип (Rash)
+Підвищена пітливість (Increased sweating)
+Діагнози (Common Diagnoses):
+Грип (Influenza)
+COVID-19
+Туберкульоз (Tuberculosis)
+Сальмонельоз (Salmonellosis)
+Вірусна пневмонія (Viral pneumonia)
+Гепатит (Hepatitis)
+ВІЛ/СНІД (HIV/AIDS)
+Лаймська хвороба (Lyme disease)
+Сифіліс (Syphilis)
+Малярія (Malaria)
+Лабораторні дослідження (Laboratory Tests):
+Загальний аналіз крові (Complete blood count, CBC)
+Аналіз на ПЛР (Polymerase chain reaction, PCR) для вірусів
+Серологічні тести (Serological tests)
+Культура бактерій (Bacterial culture)
+Аналіз сечі (Urinalysis)
+Рентгенографія легень (Chest X-ray)
+Аналіз калу (Stool test)
+Тести на алергії (Allergy tests)
+Біопсія (Biopsy)
+Сканування (Imaging tests)
+
+
+
+
+
+Інфекційні захворювання (Infectious Diseases)
+Симптоми (Symptoms):
+Лихоманка (Fever)
+Головний біль (Headache)
+М'язовий біль (Muscle pain)
+Кашель (Cough)
+Біль у горлі (Sore throat)
+Діарея (Diarrhea)
+Нудота (Nausea)
+Втома (Fatigue)
+Висип (Rash)
+Підвищена пітливість (Increased sweating)
+Діагнози (Common Diagnoses):
+Грип (Influenza)
+COVID-19
+Туберкульоз (Tuberculosis)
+Сальмонельоз (Salmonellosis)
+Вірусна пневмонія (Viral pneumonia)
+Гепатит (Hepatitis)
+ВІЛ/СНІД (HIV/AIDS)
+Лаймська хвороба (Lyme disease)
+Сифіліс (Syphilis)
+Малярія (Malaria)
+Лабораторні дослідження (Laboratory Tests):
+Загальний аналіз крові (Complete blood count, CBC)
+Аналіз на ПЛР (Polymerase chain reaction, PCR) для вірусів
+Серологічні тести (Serological tests)
+Культура бактерій (Bacterial culture)
+Аналіз сечі (Urinalysis)
+Рентгенографія легень (Chest X-ray)
+Аналіз калу (Stool test)
+Тести на алергії (Allergy tests)
+Біопсія (Biopsy)
+Сканування (Imaging tests)
+Якщо у вас є ще якісь системи або специфічні запити, будь ласка, дайте знати!
+
+
+
+
+
+Сімейна медицина (Family Medicine)
+
+Симптоми (Symptoms):
+
+2. Больові симптоми (Pain Symptoms)
+Головний біль (Headache)
+Біль у м'язах (Muscle pain)
+Біль у животі (Abdominal pain)
+Біль у спині (Back pain)
+3. Респіраторні симптоми (Respiratory Symptoms)
+Кашель (Cough)
+Задишка (Shortness of breath)
+Біль у горлі (Sore throat)
+4. Травні симптоми (Gastrointestinal Symptoms)
+Нудота (Nausea)
+Діарея (Diarrhea)
+Печія (Heartburn)
+5. Шкірні симптоми (Skin Symptoms)
+Висип (Rash)
+Ушкодження шкіри (Skin injuries)
+
+Діагнози (Common Diagnoses):
+1. Респіраторні захворювання (Respiratory Diseases)
+Хронічна обструктивна хвороба легень (Chronic obstructive pulmonary disease, COPD)
+Астма (Asthma)
+2. Серцево-судинні захворювання (Cardiovascular Diseases)
+Гіпертонія (Hypertension)
+Серцеві захворювання (Heart diseases)
+Високий холестерин (High cholesterol)
+3. Ендокринні захворювання (Endocrine Disorders)
+Діабет (Diabetes mellitus)
+Проблеми з щитовидною залозою (Thyroid disorders)
+Вітамін D дефіцит (Vitamin D deficiency)
+4. Психічні розлади (Mental Health Disorders)
+Депресія (Depression)
+Тривожні розлади (Anxiety disorders)
+Порушення сну (Sleep disorders)
+Синдром хронічної втоми (Chronic fatigue syndrome)
+5. Ожиріння та метаболічні порушення (Obesity and Metabolic Disorders)
+Ожиріння (Obesity)
+Порушення травлення (Digestive disorders)
+Синдром подразненого кишечника (Irritable bowel syndrome, IBS)
+6. Інфекційні захворювання (Infectious Diseases)
+Інфекційні захворювання (Infectious diseases)
+7. Запальні захворювання (Inflammatory Disorders)
+Артрит (Arthritis)
+
+
+Лабораторні дослідження (Laboratory Tests):
+Аналіз на глюкозу в крові (Blood glucose test)
+Аналіз на холестерин (Lipid profile)
+Тести на функцію щитовидної залози (Thyroid function tests)
+Аналізи на алергії (Allergy tests)
+Рентгенографія (X-rays)
+УЗД (Ultrasound)
+Дослідження на ВІЛ (HIV testing)
+Тести на гепатит (Hepatitis testing)
+Рівень вітамінів (Vitamin level tests)
+Мікробіологічні дослідження (Microbiological cultures)
+Генетичне тестування (Genetic testing)
+УЗД органів черевної порожнини
+Abdominal Ultrasound
+
+УЗД щитоподібної залози
+Thyroid Ultrasound
+
+УЗД під час вагітності
+Obstetric Ultrasound
+
+УЗД серця (ехокардіографія)
+Cardiac Ultrasound (Echocardiography)
+
+УЗД м'яких тканин
+Soft Tissue Ultrasound
+
+УЗД нирок
+Kidney Ultrasound
+
+УЗД тазових органів
+Pelvic Ultrasound
+
+УЗД молочних залоз
+Breast Ultrasound
+
+УЗД судин (доплерографія)
+Vascular Ultrasound (Doppler Ultrasound)
+
+УЗД легенів
+Lung Ultrasound
+
+
+{
+    "name": "Аналіз на паразити в калі",
+    "nameKey": "stoolParasiteTest",
+    "bodySystemId": "d181b406-a160-4518-802d-fff7f956d196",
+    "parentId":  "afb77684-5b01-4fe8-b814-c230bf22a42f",
+    "parent": "afb77684-5b01-4fe8-b814-c230bf22a42f"
+}

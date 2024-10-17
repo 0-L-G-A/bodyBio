@@ -9,6 +9,7 @@ import { BodySystem } from '@app/entities/BodySystem';
 @Module({
   imports: [TypeOrmModule.forFeature([BodySystem])],
   controllers: [BodySystemsController],
-  providers: [BodySystemsService]
+  providers: [BodySystemsService],
+  exports: [TypeOrmModule]
 })
 export class BodySystemsModule {}
