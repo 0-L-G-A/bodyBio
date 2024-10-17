@@ -7,10 +7,13 @@ import { UsersModule } from './modules/users/users.module';
 import { DoctorSpecialization } from './entities/DoctorSpecialization';
 import { DoctorSpecsModule } from './modules/doctorsSpecializations/doctorsSpecializations.module';
 import { BodySystem } from './entities/BodySystem';
-import { Laboratory } from './entities/Laboratory';
+import { Lab } from './entities/Lab';
 import { Diagnoze } from './entities/Diagnoze';
 import { Finding } from './entities/Finding';
 import { BodySystemsModule } from './modules/bodySystems/bodySystems.module';
+import { LabsModule } from './modules/labs/labs.module';
+import { FindingsModule } from './modules/findings/findings.module';
+import { DiagnozeModule } from './modules/diagnozes/diagnozes.module';
 
 @Module({
   imports: [TypeOrmModule.forRoot(
@@ -25,7 +28,7 @@ import { BodySystemsModule } from './modules/bodySystems/bodySystems.module';
       User,
       DoctorSpecialization,
       BodySystem,
-      Laboratory,
+      Lab,
       Diagnoze,
       Finding
     ],
@@ -34,7 +37,10 @@ import { BodySystemsModule } from './modules/bodySystems/bodySystems.module';
     }), 
     UsersModule,
     DoctorSpecsModule,
-    BodySystemsModule
+    BodySystemsModule,
+    LabsModule,
+    FindingsModule,
+    DiagnozeModule
   ],
   controllers: [AppController],
   providers: [AppService],

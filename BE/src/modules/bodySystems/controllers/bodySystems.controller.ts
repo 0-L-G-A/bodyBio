@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Param, Post, Put } from "@nestjs/common";
+import { Body, Controller, Delete, Get, Param, Post, Put } from "@nestjs/common";
 import { BodySystemsService } from "../services/bodySystems.service";
 import { BodySystem } from "@app/entities/BodySystem";
 import { BodySystemDto } from "../dtos/bodySystems.dto";
@@ -12,6 +12,11 @@ export class BodySystemsController {
         return this.bodySystemsService.findAll();
     }
 
+    @Get(':id')
+    findOne(@Param('id') id: string): Promise<BodySystem | null> {
+        return this.bodySystemsService.findOne(id);
+    }
+
     @Post()
     create(@Body() createDto: BodySystemDto): Promise<BodySystem> {
         return this.bodySystemsService.create(createDto);
@@ -20,5 +25,10 @@ export class BodySystemsController {
     @Put(':id')
     update(@Param('id') id: string, @Body() updateDto: BodySystemDto): Promise<BodySystem> {
         return this.bodySystemsService.update(id, updateDto);
+    }
+
+    @Delete(':id')
+    remove(@Param('id') id: string): Promise<void> {
+        return this.bodySystemsService.delete(id);
     }
 }

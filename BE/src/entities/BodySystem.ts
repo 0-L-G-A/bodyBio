@@ -1,6 +1,6 @@
 import { Column, Entity, JoinColumn, OneToMany, PrimaryGeneratedColumn } from "typeorm";
 import { DoctorSpecialization } from "./DoctorSpecialization";
-import { Laboratory } from "./Laboratory";
+import { Lab } from "./Lab";
 import { Finding } from "./Finding";
 import { Diagnoze } from "./Diagnoze";
 
@@ -12,15 +12,18 @@ export class BodySystem {
   @Column()
   name: string;
 
+  @Column()
+  nameKey: string;
+
   @Column({ type: 'int', default: 0 })
   level: number;
 
   @OneToMany(() => DoctorSpecialization, (specialization) => specialization.bodySystem)
   doctorsSpecializations: DoctorSpecialization[];
 
-  @OneToMany(() => Laboratory, (laboratory) => laboratory.bodySystem)
+  @OneToMany(() => Lab, (lab) => lab.bodySystem)
   @JoinColumn({ name: 'id' }) // Ясно вказуємо на колонку зовнішнього ключа
-  laboratories: Laboratory[];
+  laboratories: Lab[];
 
   @OneToMany(() => Finding, (finding) => finding.bodySystem)
   @JoinColumn({ name: 'id' }) // Ясно вказуємо на колонку зовнішнього ключа
