@@ -6,6 +6,21 @@ export enum UserRole {
     TRUST_PERSON = "trust_person",
 }
 
+export enum PreferedLanguages {
+    ENG = "ENG", // English
+    ES = "ES", // Spanish
+    UA = "UA", // Ukrainian
+    BG = "BG", // Bulgarian
+    DE = "DE", // German
+    FR = "FR", // French
+    HU = "HU", // Hungarian
+    PL = "PL", // Polish
+    TR = "TR", // Turkish
+    CZ = "CZ", // Czech
+    ZH = "ZH", // Chinese
+    AR = "AR", // Arabic
+}
+
 export type UserParams = {
     id?: string;
     name: string;

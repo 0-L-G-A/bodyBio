@@ -6,6 +6,7 @@
     }
 }
 //brew services start mysql
+brew services restart mysql
 //brew services stop mysql 
 //mysql -u root -p        root12T$
 //CREATE DATABASE body_bio;

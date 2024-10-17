@@ -14,6 +14,12 @@ import { BodySystemsModule } from './modules/bodySystems/bodySystems.module';
 import { LabsModule } from './modules/labs/labs.module';
 import { FindingsModule } from './modules/findings/findings.module';
 import { DiagnozeModule } from './modules/diagnozes/diagnozes.module';
+import { UsersAppointmentModule } from './modules/appointment/apointment.module';
+import { Appointment } from './entities/UsersAppointment';
+import { UsersDiagnozes } from './entities/UsersDiagnozes';
+import { UsersLabs } from './entities/UsersLabs';
+import { UsersFinding } from './entities/UsersFindings';
+import { UsersLabsModule } from './modules/userLabs/userLabs.module';
 
 @Module({
   imports: [TypeOrmModule.forRoot(
@@ -30,7 +36,11 @@ import { DiagnozeModule } from './modules/diagnozes/diagnozes.module';
       BodySystem,
       Lab,
       Diagnoze,
-      Finding
+      Finding,
+      UsersDiagnozes,
+      UsersFinding,
+      UsersLabs,
+      Appointment
     ],
     synchronize: true,
     // logging: true,
@@ -40,7 +50,9 @@ import { DiagnozeModule } from './modules/diagnozes/diagnozes.module';
     BodySystemsModule,
     LabsModule,
     FindingsModule,
-    DiagnozeModule
+    DiagnozeModule,
+    UsersAppointmentModule,
+    UsersLabsModule
   ],
   controllers: [AppController],
   providers: [AppService],

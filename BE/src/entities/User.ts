@@ -1,7 +1,11 @@
-import { UserRole } from "@app/types/users";
+import { PreferedLanguages, UserRole } from "@app/types/users";
 import { IsEmail, MaxLength, MinLength } from "class-validator";
 
-import { Column, CreateDateColumn, Entity, PrimaryGeneratedColumn } from "typeorm";
+import { Column, CreateDateColumn, Entity, OneToMany, PrimaryGeneratedColumn } from "typeorm";
+import { Appointment } from "./UsersAppointment";
+import { UsersLabs } from "./UsersLabs";
+import { UsersDiagnozes } from "./UsersDiagnozes";
+import { UsersFinding } from "./UsersFindings";
 
 @Entity({name: 'users'})
 export class User {
@@ -59,4 +63,23 @@ export class User {
 
     @Column({ nullable: true })
     sex: string | null;
+
+    @OneToMany(() => Appointment, (appointment) => appointment.user)
+    appointments: Appointment[];
+
+    @OneToMany(() => UsersLabs, (userLab) => userLab.user)
+    usersLabs: UsersLabs[];
+
+    @OneToMany(() => UsersDiagnozes, (usersDiagnoze) => usersDiagnoze.user)
+    usersDiagnozes: UsersDiagnozes[];
+
+    @OneToMany(() => UsersFinding, (usersFinding) => usersFinding.user)
+    usersFindings: UsersFinding[];
+
+    @Column({
+        type: "enum",
+        enum: PreferedLanguages,
+        default: PreferedLanguages.ENG,
+    })
+    preferedLanguage: PreferedLanguages;
 }
