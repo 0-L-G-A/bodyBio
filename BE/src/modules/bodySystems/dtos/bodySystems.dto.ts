@@ -9,9 +9,9 @@ export class BodySystemDto {
     nameKey: string;
 
     @IsNotEmpty()
-    level: number; // Рівень ієрархії
+    level: number;
 
     @IsNotEmpty()
     @IsUUID()
-    bodySystemId: string; // Зовнішній ключ для зв'язку з іншими ентіті
+    bodySystemId: string;
 }

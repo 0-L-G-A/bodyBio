@@ -10,5 +10,5 @@ export class DoctorsSpecsDto {
   
     @IsNotEmpty()
     @IsUUID()
-    bodySystemId: string; // Зовнішній ключ для зв'язку з BodySystem
+    bodySystemId: string;
 }

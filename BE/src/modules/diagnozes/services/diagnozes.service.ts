@@ -13,7 +13,7 @@ export class DiagnozesService {
         private readonly diagnozesRepository: Repository<Diagnoze>,
 
         @InjectRepository(BodySystem)
-        private readonly bodySystemRepository: Repository<BodySystem>, // Репозиторій для BodySystem
+        private readonly bodySystemRepository: Repository<BodySystem>,
     ) {}
 
     async findAll(): Promise<Diagnoze[]> {

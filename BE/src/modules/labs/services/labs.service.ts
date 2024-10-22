@@ -12,7 +12,7 @@ export class LabsService {
         private readonly labRepository: Repository<Lab>,
 
         @InjectRepository(BodySystem)
-        private readonly bodySystemRepository: Repository<BodySystem>, // Репозиторій для BodySystem
+        private readonly bodySystemRepository: Repository<BodySystem>,
     ) {}
 
     async findAll(): Promise<Lab[]> {
@@ -22,7 +22,6 @@ export class LabsService {
     }
 
     async findLabsByIds(labsIds: string[]): Promise<any[]> {
-    // Запитуємо всі лабораторії першого рівня за масивом ідентифікаторів
     const labs = await this.labRepository.find({
       where: { id: In(labsIds) },
       relations: ['children', 'bodySystem', 'parent'],
@@ -38,7 +37,6 @@ export class LabsService {
     async create(createDto: LabDto): Promise<Lab> {
         const { name, nameKey, bodySystemId, parentId } = createDto;
 
-        // Знаходимо BodySystem за переданим bodySystemId
         const bodySystem = await this.bodySystemRepository.findOne({ where: { id: bodySystemId } });
         if (!bodySystem) {
             throw new NotFoundException(`BodySystem with id ${bodySystemId} not found`);
@@ -49,7 +47,6 @@ export class LabsService {
         lab.nameKey = nameKey;
         lab.bodySystem = bodySystem;
 
-        // Якщо передано parentId, знаходимо батьківську лабораторію
         if (parentId) {
             const parentLab = await this.labRepository.findOne({ where: { id: parentId } });
             if (!parentLab) {

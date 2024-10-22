@@ -12,7 +12,7 @@ export class FindingsService {
         private readonly findingsRepository: Repository<Finding>,
 
         @InjectRepository(BodySystem)
-        private readonly bodySystemRepository: Repository<BodySystem>, // Репозиторій для BodySystem
+        private readonly bodySystemRepository: Repository<BodySystem>,
     ) {}
 
     async findAll(): Promise<Finding[]> {

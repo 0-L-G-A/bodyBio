@@ -28,7 +28,7 @@ export class LabsController {
         return this.labsService.create(createDto);
     }
 
-    @Delete(':id')  // Додаємо маршрут для видалення
+    @Delete(':id')
     async deleteLab(@Param('id') labId: string): Promise<void> {
       await this.labsService.delete(labId);
     }

@@ -5,8 +5,8 @@ import { In, Repository } from "typeorm";
 import { CreateAppointmentDto } from "../dtos/apointment.dto";
 import { User } from "@app/entities/User";
 import { UsersLabs } from "@app/entities/UsersLabs";
-// import { UsersDiagnozes } from "@app/entities/UsersDiagnozes";
-// import { UsersFinding } from "@app/entities/UsersFindings";
+import { UsersDiagnozes } from "@app/entities/UsersDiagnozes";
+import { UsersFinding } from "@app/entities/UsersFindings";
 
 
 @Injectable()
@@ -14,10 +14,10 @@ export class UsersAppointmentsService {
   constructor(
     @InjectRepository(Appointment)
     private usersAppointmentRepository: Repository<Appointment>,
-    // @InjectRepository(UsersFinding)
-    // private usersFindingsRepository: Repository<UsersFinding>,
-    // @InjectRepository(UsersDiagnozes)
-    // private usersDiagnozesRepository: Repository<UsersDiagnozes>,
+    @InjectRepository(UsersFinding)
+    private usersFindingsRepository: Repository<UsersFinding>,
+    @InjectRepository(UsersDiagnozes)
+    private usersDiagnozesRepository: Repository<UsersDiagnozes>,
     @InjectRepository(UsersLabs)
     private usersLabsRepository: Repository<UsersLabs>,
   ) {}
@@ -65,28 +65,24 @@ export class UsersAppointmentsService {
       return null;
     }
 
-    // Updating main data
     //@ts-ignore
     appointment.user = updateDto.user;
     //@ts-ignore
     appointment.author = updateDto.author;
     appointment.usedBodySystems = updateDto.usedBodySystems;
 
-    // // Updating related findings
-    // if (updateDto.usersFindings.length) {
-    //   appointment.usersFindings = await this.usersFindingsRepository.findBy({
-    //     id: In(updateDto.usersFindings),
-    //   });
-    // }
+    if (updateDto.usersFindings.length) {
+      appointment.usersFindings = await this.usersFindingsRepository.findBy({
+        id: In(updateDto.usersFindings),
+      });
+    }
 
-    // // Updating related diagnoses
-    // if (updateDto.usersDiagnozes.length) {
-    //   appointment.usersDiagnozes = await this.usersDiagnozesRepository.findBy({
-    //     id: In(updateDto.usersDiagnozes),
-    //   });
-    // }
+    if (updateDto.usersDiagnozes.length) {
+      appointment.usersDiagnozes = await this.usersDiagnozesRepository.findBy({
+        id: In(updateDto.usersDiagnozes),
+      });
+    }
 
-    // Updating related labs
     if (updateDto.usersLabs.length) {
       appointment.usersLabs = await this.usersLabsRepository.findBy({
         id: In(updateDto.usersLabs),
@@ -99,8 +95,8 @@ export class UsersAppointmentsService {
   async delete(id: string): Promise<void> {
     const appointment = await this.findOne(id);
     if (appointment) {
-      // await this.usersFindingsRepository.remove(appointment.usersFindings);
-      // await this.usersDiagnozesRepository.remove(appointment.usersDiagnozes);
+      await this.usersFindingsRepository.remove(appointment.usersFindings);
+      await this.usersDiagnozesRepository.remove(appointment.usersDiagnozes);
       await this.usersLabsRepository.remove(appointment.usersLabs);
 
       await this.usersAppointmentRepository.remove(appointment);

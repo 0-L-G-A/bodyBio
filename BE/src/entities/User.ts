@@ -30,11 +30,11 @@ export class User {
     })
     role: UserRole;
 
-    @Column({ unique: true })  // Email повинен бути унікальним
+    @Column({ unique: true })
     @IsEmail({}, {message: 'Use correct email'})
     email: string;
 
-    @Column({ select: false })  // Пароль не буде включений у вибірку за замовчуванням
+    @Column({ select: false })
     password: string;
 
     @Column({nullable: true})

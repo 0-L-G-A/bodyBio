@@ -44,11 +44,9 @@ export class UsersController {
         const user = await this.userService.loginUserByEmail(email, password);
         
         if (!user) {
-        // Якщо користувач не знайдений або пароль невірний
         throw new HttpException('Invalid email or password', HttpStatus.UNAUTHORIZED);
         }
         
-        // Якщо логін успішний, повертаємо користувача або токен
         return {
         statusCode: 200,
         message: 'Login successful',

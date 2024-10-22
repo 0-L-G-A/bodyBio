@@ -22,14 +22,14 @@ export class BodySystem {
   doctorsSpecializations: DoctorSpecialization[];
 
   @OneToMany(() => Lab, (lab) => lab.bodySystem)
-  @JoinColumn({ name: 'id' }) // Ясно вказуємо на колонку зовнішнього ключа
+  @JoinColumn({ name: 'id' })
   laboratories: Lab[];
 
   @OneToMany(() => Finding, (finding) => finding.bodySystem)
-  @JoinColumn({ name: 'id' }) // Ясно вказуємо на колонку зовнішнього ключа
+  @JoinColumn({ name: 'id' })
   findings: Finding[];
 
   @OneToMany(() => Diagnoze, (diagnoze) => diagnoze.bodySystem)
-  @JoinColumn({ name: 'id' }) // Ясно вказуємо на колонку зовнішнього ключа
+  @JoinColumn({ name: 'id' })
   diagnozes: Diagnoze[];
 }

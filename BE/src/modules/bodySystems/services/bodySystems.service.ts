@@ -19,8 +19,8 @@ export class BodySystemsService {
 
     async findOne(id: string): Promise<BodySystem | null> {
         return this.bodySystemRepository.findOne({
-            where: { id }, // умова для пошуку по id
-            relations: ['doctorsSpecializations', 'laboratories', 'findings', 'diagnozes'], // зв'язки
+            where: { id },
+            relations: ['doctorsSpecializations', 'laboratories', 'findings', 'diagnozes'],
         });
     }
 
@@ -30,7 +30,7 @@ export class BodySystemsService {
     }
 
     async update(id: string, updateDto: BodySystemDto): Promise<BodySystem> {
-      const bodySystem = await this.bodySystemRepository.findOneBy({id}); // Перевірка на існування
+      const bodySystem = await this.bodySystemRepository.findOneBy({id});
       this.bodySystemRepository.merge(bodySystem, updateDto);
       return this.bodySystemRepository.save(bodySystem);
   }
