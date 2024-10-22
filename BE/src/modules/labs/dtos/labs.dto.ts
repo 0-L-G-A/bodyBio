@@ -15,9 +15,9 @@ export class LabDto {
 
     @IsNotEmpty()
     @IsUUID()
-    bodySystemId: string; // Зовнішній ключ для BodySystem
+    bodySystemId: string;
 
     @IsOptional()
     @IsUUID()
-    parentId?: string; // Зовнішній ключ для Parent (опціональний)
+    parentId?: string;
 }

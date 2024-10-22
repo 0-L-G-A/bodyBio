@@ -13,6 +13,6 @@ export class DoctorSpecialization {
   nameKey: string;
 
   @ManyToOne(() => BodySystem, (bodySystem) => bodySystem.doctorsSpecializations, { nullable: false })
-  @JoinColumn({ name: 'bodySystemId' }) // Ясно вказуємо на колонку зовнішнього ключа
+  @JoinColumn({ name: 'bodySystemId' })
   bodySystem: BodySystem;
 }

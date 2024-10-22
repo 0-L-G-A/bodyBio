@@ -20,6 +20,8 @@ import { UsersDiagnozes } from './entities/UsersDiagnozes';
 import { UsersLabs } from './entities/UsersLabs';
 import { UsersFinding } from './entities/UsersFindings';
 import { UsersLabsModule } from './modules/userLabs/userLabs.module';
+import { UsersFindingsModule } from './modules/userFindings/userFindings.module';
+import { UsersDiagnozesModule } from './modules/userDiagnozes/userDiagnozes.module';
 
 @Module({
   imports: [TypeOrmModule.forRoot(
@@ -52,7 +54,9 @@ import { UsersLabsModule } from './modules/userLabs/userLabs.module';
     FindingsModule,
     DiagnozeModule,
     UsersAppointmentModule,
-    UsersLabsModule
+    UsersLabsModule,
+    UsersFindingsModule,
+    UsersDiagnozesModule
   ],
   controllers: [AppController],
   providers: [AppService],

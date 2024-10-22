@@ -9,8 +9,8 @@ import { BodySystemsModule } from '../bodySystems/bodySystems.module';
 
 @Module({
   imports: [
-    TypeOrmModule.forFeature([Lab]),  // Реєстрація Lab як репозиторія
-    BodySystemsModule,                 // Імпортуємо BodySystemModule, щоб отримати доступ до BodySystemRepository
+    TypeOrmModule.forFeature([Lab]),
+    BodySystemsModule,           
   ],
   controllers: [LabsController],
   providers: [LabsService]

@@ -16,14 +16,14 @@ export class Finding {
     level: number;
 
     @ManyToOne(() => BodySystem, (bodySystem) => bodySystem.diagnozes, { nullable: false })
-    @JoinColumn({ name: 'bodySystemId' }) // Зовнішній ключ для зв'язку з BodySystem
+    @JoinColumn({ name: 'bodySystemId' })
     bodySystem: BodySystem;
 
     @OneToMany(() => Finding, (finding) => finding.parent, { cascade: true })
     children: Finding[];
 
     @ManyToOne(() => Finding, (finding) => finding.children, { nullable: true })
-    @JoinColumn({ name: 'parentId' }) // Вказуємо колонку зовнішнього ключа для батьківської лабораторії
+    @JoinColumn({ name: 'parentId' })
     parent: Finding;
 
 }

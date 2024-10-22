@@ -29,7 +29,7 @@ export class DiagnozesController {
         return this.diagnozesService.create(createDto);
     }
 
-    @Delete(':id')  // Додаємо маршрут для видалення
+    @Delete(':id')
     async deleteFinding(@Param('id') findingId: string): Promise<void> {
       await this.diagnozesService.delete(findingId);
     }

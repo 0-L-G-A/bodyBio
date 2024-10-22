@@ -20,10 +20,10 @@ export class UsersDiagnozes {
   bodySystemId: string;
 
   @Column({ nullable: false })
-  parentDiagnosisId: string;
+  parentDiagnozeId: string;
 
   @Column({ nullable: false })
-  childDiagnosisId: string;
+  childDiagnozeId: string;
 
   @Column('simple-array', { nullable: true })
   linkedImages: string[];

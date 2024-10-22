@@ -31,28 +31,22 @@ export class UsersService {
     }
 
     async signUpUser(userDetails: UserParams) {
-        // Хешуємо пароль перед збереженням
         const hashedPassword = await this.hashPassword(userDetails.password);
-
         const newUser = this.userRepository.create({
             ...userDetails,
-            password: hashedPassword,  // Зберігаємо хешований пароль
+            password: hashedPassword,
             createdAt: new Date(),
         });
 
-        // Зберігаємо користувача в базі даних
         return this.userRepository.save(newUser);
     }
 
     async loginUserByEmail(email: string, password: string) {
-
-        // Шукаємо користувача за email
         const user = await this.userRepository.findOne({
             where: { email },
-            select: ['id', 'email', 'password', 'name', 'surname', 'role']  // Включаємо пароль у вибірку
+            select: ['id', 'email', 'password', 'name', 'surname', 'role']
         });
 
-        // Якщо користувача не існує або пароль не співпадає, повертаємо null
         if (!user) {
             return null;
         }
@@ -63,17 +57,14 @@ export class UsersService {
             return null;
         }
 
-        // Якщо все добре, повертаємо користувача
         return user;
     }
 
-    // Метод для хешування пароля
     private async hashPassword(password: string): Promise<string> {
         const saltRounds = 10;
         return await bcrypt.hash(password, saltRounds);
     }
 
-    // Метод для порівняння паролів
     private async comparePasswords(password: string, hashedPassword: string): Promise<boolean> {
         return await bcrypt.compare(password, hashedPassword);
     }

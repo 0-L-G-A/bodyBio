@@ -28,7 +28,7 @@ export class FindingsController {
         return this.findingsService.create(createDto);
     }
 
-    @Delete(':id')  // Додаємо маршрут для видалення
+    @Delete(':id')
     async deleteFinding(@Param('id') findingId: string): Promise<void> {
       await this.findingsService.delete(findingId);
     }
