@@ -1,0 +1,10 @@
+{
+  "name": "body-bio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "install:all": "cd BE && npm install && cd ../FE && npm install",
+    "start": "cd BE && npm start"
+  },
+  "dependencies": {}
+}
