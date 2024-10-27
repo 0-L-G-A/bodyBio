@@ -22,9 +22,11 @@ import { UsersFinding } from './entities/UsersFindings';
 import { UsersLabsModule } from './modules/userLabs/userLabs.module';
 import { UsersFindingsModule } from './modules/userFindings/userFindings.module';
 import { UsersDiagnozesModule } from './modules/userDiagnozes/userDiagnozes.module';
+import { ConfigModule } from '@nestjs/config';
 
 @Module({
   imports: [
+    ConfigModule.forRoot(),
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: process.env.DATABASE_HOST,
