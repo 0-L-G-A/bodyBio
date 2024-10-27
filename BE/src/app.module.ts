@@ -24,29 +24,29 @@ import { UsersFindingsModule } from './modules/userFindings/userFindings.module'
 import { UsersDiagnozesModule } from './modules/userDiagnozes/userDiagnozes.module';
 
 @Module({
-  imports: [TypeOrmModule.forRoot(
-    {
-    type: 'mysql',
-    host: 'localhost',
-    port: 3306,
-    username: 'root',
-    password: 'root12T$',
-    database: 'body_bio',
-    entities: [
-      User,
-      DoctorSpecialization,
-      BodySystem,
-      Lab,
-      Diagnoze,
-      Finding,
-      UsersDiagnozes,
-      UsersFinding,
-      UsersLabs,
-      Appointment
-    ],
-    synchronize: true,
-    // logging: true,
-    }), 
+  imports: [
+    TypeOrmModule.forRoot({
+      type: 'mysql',
+      host: process.env.DATABASE_HOST,
+      port: Number(process.env.DATABASE_PORT),
+      username: process.env.DATABASE_USERNAME,
+      password: process.env.DATABASE_PASSWORD,
+      database: process.env.DATABASE_NAME,
+      entities: [
+        User,
+        DoctorSpecialization,
+        BodySystem,
+        Lab,
+        Diagnoze,
+        Finding,
+        UsersDiagnozes,
+        UsersFinding,
+        UsersLabs,
+        Appointment,
+      ],
+      synchronize: true,
+      // logging: true,
+    }),
     UsersModule,
     DoctorSpecsModule,
     BodySystemsModule,
@@ -56,7 +56,7 @@ import { UsersDiagnozesModule } from './modules/userDiagnozes/userDiagnozes.modu
     UsersAppointmentModule,
     UsersLabsModule,
     UsersFindingsModule,
-    UsersDiagnozesModule
+    UsersDiagnozesModule,
   ],
   controllers: [AppController],
   providers: [AppService],
