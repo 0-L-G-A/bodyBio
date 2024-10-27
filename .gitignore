@@ -1,4 +1,5 @@
 # compiled output
+/node_modules
 /BE/dist
 /BE/node_modules
 /BE/build

@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "cd BE && nest start && cd ../FE && react-scripts start",
-    "build": "cd BE && npm install && nest build && cd ../FE && npm install && react-scripts build"
+    "start": "cd BE && npx nest start && cd ../FE && react-scripts start",
+    "build": "concurrently \"cd BE && npm install && nest build\" \"cd FE && npm install && react-scripts build\""
   },
-  "dependencies": {}
+  "devDependencies": {
+    "concurrently": "9.0.1"
+  }
 }
