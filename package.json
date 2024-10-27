@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "install:all": "cd BE && npm install && cd ../FE && npm install",
-    "start": "cd BE && npm start"
+    "start": "cd BE && nest start && cd ../FE && react-scripts start",
+    "build": "cd BE && npm install && nest build && cd ../FE && npm install && react-scripts build"
   },
   "dependencies": {}
 }
