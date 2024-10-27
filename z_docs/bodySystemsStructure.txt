@@ -1,20 +1,21 @@
 // відповідь юзера на логін чи реєстрацію
 const users = [
     {
-        "id": "a93d5453-36bd-41be-a71f-58eba17ed8d8",
         "name": "Admin",
         "surname": "Adminovych",
         "role": "super_admin",
         "email": "lol79lol97@gmail.com",
         "contactNumber": "+380688446424",
         "insuranceId": "ins1dor",
+        
+        "id": "a93d5453-36bd-41be-a71f-58eba17ed8d8",
         "createdAt": "2024-10-08T15:36:17.875Z",
+        "isAlive": true,
+        "sex": "male"
         "patientsIds": [],
         "doctorsIds": [],
         "adminsIds": [],
         "trustPersonsIds": [],
-        "isAlive": true,
-        "sex": "male"
     },
 ]
 
