@@ -4,11 +4,10 @@ import { DoctorsSpecsService } from './services/doctorsSpecializations.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { DoctorSpecialization } from '@app/entities/DoctorSpecialization';
 
-
-
 @Module({
   imports: [TypeOrmModule.forFeature([DoctorSpecialization])],
   controllers: [DoctorsSpecsController],
-  providers: [DoctorsSpecsService]
+  providers: [DoctorsSpecsService],
+  exports: [DoctorsSpecsService],
 })
 export class DoctorSpecsModule {}

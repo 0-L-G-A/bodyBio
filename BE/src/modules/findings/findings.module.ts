@@ -5,14 +5,10 @@ import { FindingsController } from './controllers/findings.controller';
 import { FindingsService } from './services/findings.service';
 import { Finding } from '@app/entities/Finding';
 
-
-
 @Module({
-  imports: [
-    TypeOrmModule.forFeature([Finding]),
-    BodySystemsModule,
-  ],
+  imports: [TypeOrmModule.forFeature([Finding]), BodySystemsModule],
   controllers: [FindingsController],
-  providers: [FindingsService]
+  providers: [FindingsService],
+  exports: [FindingsService],
 })
 export class FindingsModule {}

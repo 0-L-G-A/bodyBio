@@ -24,6 +24,15 @@ import { UsersFindingsModule } from './modules/userFindings/userFindings.module'
 import { UsersDiagnozesModule } from './modules/userDiagnozes/userDiagnozes.module';
 import { ConfigModule } from '@nestjs/config';
 import { UsersController } from './modules/users/controllers/users.controller';
+import { UsersLabsController } from './modules/userLabs/controllers/userLabs.controller';
+import { UsersFindingsController } from './modules/userFindings/controllers/userFindings.controller';
+import { UsersDiagnozesController } from './modules/userDiagnozes/controllers/userDiagnozes.controller';
+import { LabsController } from './modules/labs/controllers/labs.controller';
+import { FindingsController } from './modules/findings/controllers/findings.controller';
+import { DoctorsSpecsController } from './modules/doctorsSpecializations/controllers/doctorsSpecializations.controller';
+import { DiagnozesController } from './modules/diagnozes/controllers/diagnozes.controller';
+import { BodySystemsController } from './modules/bodySystems/controllers/bodySystems.controller';
+import { UsersAppointmentsController } from './modules/appointment/controllers/apointment.controller';
 
 @Module({
   imports: [
@@ -64,7 +73,19 @@ import { UsersController } from './modules/users/controllers/users.controller';
     UsersFindingsModule,
     UsersDiagnozesModule,
   ],
-  controllers: [AppController, UsersController],
+  controllers: [
+    AppController,
+    UsersController,
+    UsersLabsController,
+    UsersFindingsController,
+    UsersDiagnozesController,
+    LabsController,
+    FindingsController,
+    DoctorsSpecsController,
+    DiagnozesController,
+    BodySystemsController,
+    UsersAppointmentsController,
+  ],
   providers: [AppService],
 })
 export class AppModule {}

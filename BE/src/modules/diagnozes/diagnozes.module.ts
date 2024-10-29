@@ -5,14 +5,10 @@ import { DiagnozesController } from './controllers/diagnozes.controller';
 import { DiagnozesService } from './services/diagnozes.service';
 import { Diagnoze } from '@app/entities/Diagnoze';
 
-
-
 @Module({
-  imports: [
-    TypeOrmModule.forFeature([Diagnoze]),
-    BodySystemsModule,
-  ],
+  imports: [TypeOrmModule.forFeature([Diagnoze]), BodySystemsModule],
   controllers: [DiagnozesController],
-  providers: [DiagnozesService]
+  providers: [DiagnozesService],
+  exports: [DiagnozesService],
 })
 export class DiagnozeModule {}

@@ -8,6 +8,6 @@ import { BodySystem } from '@app/entities/BodySystem';
   imports: [TypeOrmModule.forFeature([BodySystem])],
   controllers: [BodySystemsController],
   providers: [BodySystemsService],
-  exports: [BodySystemsService, TypeOrmModule]
+  exports: [BodySystemsService, TypeOrmModule],
 })
 export class BodySystemsModule {}

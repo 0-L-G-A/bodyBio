@@ -5,14 +5,10 @@ import { LabsService } from './services/labs.service';
 import { LabsController } from './controllers/labs.controller';
 import { BodySystemsModule } from '../bodySystems/bodySystems.module';
 
-
-
 @Module({
-  imports: [
-    TypeOrmModule.forFeature([Lab]),
-    BodySystemsModule,           
-  ],
+  imports: [TypeOrmModule.forFeature([Lab]), BodySystemsModule],
   controllers: [LabsController],
-  providers: [LabsService]
+  providers: [LabsService],
+  exports: [LabsService],
 })
 export class LabsModule {}
