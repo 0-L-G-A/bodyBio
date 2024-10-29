@@ -1,13 +1,6 @@
 version: "3.8"
 
 services:
-  # frontend:
-  #   build:
-  #     context: ./FE
-  #     dockerfile: Dockerfile
-  #   ports:
-  #     - "3000:80"
-
   backend:
     build:
       context: ./BE
@@ -41,6 +34,13 @@ services:
       interval: 10s
       timeout: 5s
       retries: 5
+
+  frontend:
+    build:
+      context: ./FE
+      dockerfile: Dockerfile
+    ports:
+      - "3000:80"
 
 volumes:
   mysql_data:
