@@ -37,8 +37,8 @@
     "prettier": "^3.3.3"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "NODE_ENV=prod node_modules/react-scripts/bin/react-scripts.js start",
+    "build": "NODE_ENV=prod node_modules/react-scripts/bin/react-scripts.js build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "prettier --write .",
