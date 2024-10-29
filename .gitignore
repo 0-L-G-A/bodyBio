@@ -1,12 +1,7 @@
 # compiled output
 /node_modules
-/BE/dist
-/BE/node_modules
-/BE/build
-/FE/dist
-/FE/node_modules
-/FE/build
-/set.json
+/dist
+/build
 
 # Logs
 logs

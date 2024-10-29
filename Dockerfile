@@ -20,4 +20,4 @@ RUN npm run build
 EXPOSE 3000
 
 # Запускаємо сервер, використовуючи змінну PORT
-CMD ["npm", "run", "start:prod"]
+CMD ["node", "dist/main.js", "--port", "${PORT}"]

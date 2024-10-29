@@ -15,6 +15,6 @@ async function bootstrap() {
     methods: 'GET,POST,PUT,PATCH,DELETE,OPTIONS',
     credentials: true,
   });
-  await app.listen(3006);
+  await app.listen(process.env.PORT || 3000);
 }
 bootstrap();
