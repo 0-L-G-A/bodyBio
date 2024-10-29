@@ -6,7 +6,7 @@
   "private": true,
   "license": "UNLICENSED",
   "scripts": {
-    "build": "nest build",
+    "build": "npx nest build",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
     "start": "npx nest start",
     "start:dev": "npx nest start --watch",
@@ -33,6 +33,7 @@
     "@types/node": "^20.3.1",
     "@types/supertest": "^6.0.0",
     "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
     "class-validator": "^0.14.1",
     "eslint": "^8.42.0",
     "eslint-config-prettier": "^9.0.0",
@@ -69,6 +70,7 @@
     "testEnvironment": "node"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.0.0",
     "@nestjs/cli": "^10.4.5"
   }
 }

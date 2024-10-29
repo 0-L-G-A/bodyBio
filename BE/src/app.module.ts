@@ -23,10 +23,14 @@ import { UsersLabsModule } from './modules/userLabs/userLabs.module';
 import { UsersFindingsModule } from './modules/userFindings/userFindings.module';
 import { UsersDiagnozesModule } from './modules/userDiagnozes/userDiagnozes.module';
 import { ConfigModule } from '@nestjs/config';
+import { UsersController } from './modules/users/controllers/users.controller';
 
 @Module({
   imports: [
-    ConfigModule.forRoot(),
+    ConfigModule.forRoot({
+      envFilePath: '.env',
+      isGlobal: true,
+    }),
     TypeOrmModule.forRoot({
       type: 'mysql',
       host: process.env.DATABASE_HOST,
@@ -60,7 +64,7 @@ import { ConfigModule } from '@nestjs/config';
     UsersFindingsModule,
     UsersDiagnozesModule,
   ],
-  controllers: [AppController],
+  controllers: [AppController, UsersController],
   providers: [AppService],
 })
 export class AppModule {}
