@@ -1,5 +1,5 @@
 # Dockerfile для Frontend
-FROM node:18
+FROM node:18 AS builder
 
 # Встановлюємо робочу директорію
 WORKDIR /app
@@ -18,7 +18,9 @@ RUN npm run build
 
 # Встановлюємо сервер
 FROM nginx:alpine
-COPY --from=0 /app/build /usr/share/nginx/html
+
+# Копіюємо білд з попереднього етапу
+COPY --from=builder /app/build /usr/share/nginx/html
 
 # Відкриваємо порт 80
 EXPOSE 80
